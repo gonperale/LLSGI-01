@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="ca" xml:lang="ca">
+<head>
+  <title>Tasca</title>
+  <link rel="shortcut icon" href="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/theme/1515762881/favicon" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Tasca" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/fpadistancia.caib.es","sesskey":"myEI9abDl6","loadingicon":"http:\/\/fpadistancia.caib.es\/theme\/image.php\/ieduca_fprofessional\/core\/1515762881\/i\/loading_small","themerev":"1515762881","slasharguments":1,"theme":"ieduca_fprofessional","jsrev":"1515762881","svgicons":true,"developerdebug":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin');}};
+var yui2ConfigFn = function(me) {var p = me.path, b = me.name.replace(/^moodle-/,'').split('-', 3), n = b.pop();if (/(skin|core)/.test(n)) {n = b.pop();me.type = 'css';};me.path = b.join('-')+'/'+n+'/'+n;if(me.type !== 'css'){me.path=me.path+'-min';};me.path=me.path+'.'+me.type;};
+YUI_config = {"debug":true,"base":"http:\/\/fpadistancia.caib.es\/lib\/yuilib\/3.9.1\/build\/","comboBase":"http:\/\/fpadistancia.caib.es\/theme\/yui_combo.php?","combine":true,"filter":"RAW","insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/fpadistancia.caib.es\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/fpadistancia.caib.es\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/fpadistancia.caib.es\/theme\/yui_combo.php?moodle\/1515762881\/","combine":true,"comboBase":"http:\/\/fpadistancia.caib.es\/theme\/yui_combo.php?","ext":false,"root":"moodle\/1515762881\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":"DEBUG","modules":{"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification","json-parse","widget-position","widget-position-align","event-outside","cache"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-notification":{"requires":["base","node","panel","event-key","dd-plugin"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-calendar-eventmanager":{"requires":["base","node","event-mouseenter","overlay","moodle-calendar-eventmanager-skin"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-block_navigation-navigation":{"requires":["base","core_dock","io-base","node","dom","event-custom","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-notification"]},"moodle-editor_tinymce-collapse":{"requires":["base","node","dom"]},"moodle-theme_bootstrapbase-bootstrap":{"requires":["node","selector-css3"]}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/fpadistancia.caib.es\/lib\/javascript.php\/1515762881\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"core_dock":{"name":"core_dock","fullpath":"http:\/\/fpadistancia.caib.es\/lib\/javascript.php\/1515762881\/blocks\/dock.js","requires":["base","node","event-custom","event-mouseenter","event-resize","escape"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="http://fpadistancia.caib.es/theme/yui_combo.php?3.9.1/build/cssreset/cssreset.css&amp;3.9.1/build/cssfonts/cssfonts.css&amp;3.9.1/build/cssgrids/cssgrids.css&amp;3.9.1/build/cssbase/cssbase.css" /><script type="text/javascript" src="http://fpadistancia.caib.es/theme/yui_combo.php?3.9.1/build/simpleyui/simpleyui.js&amp;3.9.1/build/loader/loader.js"></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="http://fpadistancia.caib.es/theme/styles.php/ieduca_fprofessional/1515762881/all" />
+<script type="text/javascript" src="http://fpadistancia.caib.es/lib/javascript.php/1515762881/lib/javascript-static.js"></script>
+</head>
+
+<body id="page-mod-assign-view" class="format-topics  path-mod path-mod-assign safari dir-ltr lang-ca yui-skin-sam yui3-skin-sam fpadistancia-caib-es pagelayout-incourse course-286 context-295264 cmid-62388 category-28 side-pre-only">
+
+<div class="skiplinks"><a class="skip" href="#maincontent">Vés al contingut principal</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+<div id="page-wrapper">
+  <div id="page" class="clearfix">
+    <div id="logo_cec">	
+			 <div class="headermenu">
+		  <div class="logininfo">Heu entrat com <a href="http://fpadistancia.caib.es/user/profile.php?id=261068" title="Mostra el perfil">Alex Fernando Perez Gonzalez</a> (<a href="http://fpadistancia.caib.es/login/logout.php?sesskey=myEI9abDl6">Sortida</a>)</div>		</div>
+	 	
+    </div>
+    <div id="page-header" class="clearfix">	
+              <h1 class="headermain">Introducció als Llenguatges de Marques LLSGI-01</h1> 
+	<div class="headermenu">
+		 	</div>	       
+                </div>
+
+ <div class="myclear"></div>
+
+      
+              <div class="navbar clearfix">
+          <div class="breadcrumb"><span class="accesshide">Camí de la pàgina</span><ul role="navigation"><li><a href="http://fpadistancia.caib.es/">Inici</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <a href="http://fpadistancia.caib.es/my/">Els meus cursos</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <a href="http://fpadistancia.caib.es/course/index.php?categoryid=2">FP a distància</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <a href="http://fpadistancia.caib.es/course/index.php?categoryid=4">Grau superior</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <a href="http://fpadistancia.caib.es/course/index.php?categoryid=28">IFC31 Administració de sistemes informàtics en xarxa</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <a title="Lenguaje de Marcas y Sistemas de Gestión de la Información (ASIR_LMSGI)" href="http://fpadistancia.caib.es/course/view.php?id=286">07006238_IFC31_Z_0373</a></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <span tabindex="0">Tema 1</span></li><li> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> <a title="Tasca" href="http://fpadistancia.caib.es/mod/assign/view.php?id=62388">Introducció als Llenguatges de Marques LLSGI-01</a></li></ul></div>
+          <div class="navbutton"> </div>
+        </div>
+      
+
+    <div id="page-content">
+        <div id="region-main-box">
+            <div id="region-post-box">
+
+                <div id="region-main-wrap">
+                    <div id="region-main">
+                        <div class="region-content">
+                                                        <div role="main"><span id="maincontent"></span><h2 class="main">Introducció als Llenguatges de Marques LLSGI-01</h2><div id="intro" class="box generalbox boxaligncenter"><div class="no-overflow"><div id="gt-src-p">
+<div id="gt-src-wrap">
+<div>Aquesta primera activitat es centra en l'aprenentatge de l'eina online Github, l'edició de documents en Markdown (README.md) i l'ús de Rawgit.</div>
+<div></div>
+<div><strong><br />A) Crea documents</strong></div>
+<div>Amb el bloc de notes crea documents RTF, XML i HTML d'exemple (copia i desa  el codi dels apunts, ara no entrarem en detalls de codi, només crea fitxers amb diferents extensions).</div>
+<div>1) Obri nou document i desa el text (per exemple, codi RTF)</div>
+<div>2) Canvia l'extensió del document (per exemple, a .rtf)</div>
+<div>3) Obri el document amb el programari corresponent (per exemple, Open Office)</div>
+<div>Funciona?</div>
+<div></div>
+<div><strong><br />B) Omple un repositori GitHub</strong></div>
+<div>1) Enregistra't a Github, apren Markdown: http://fpadistancia.caib.es/mod/page/view.php?id=70940</div>
+<div>2) Puja al teu repositori de GitHub tots els exemples de fitxers de text pla amb llenguatge de marques que has creat (els tres fitxers .rtf, .xml, .html)</div>
+<div></div>
+<div>
+<div><strong><br />C) Usa Rawgit per veure html de GitHub</strong></div>
+<p>1) Obri el fitxer .html en el teu repositori (fes click damunt).<br />2) Copia la URL (la adreça web del .html)<br />3) Desa-la a https://rawgit.com/ , copia l'enllaç "Use this URL for development"<br />4) Obri l'enllaç a una nova pestanya, ¿veus la pàgina?, si la resposta es si continua, sino torna enrere.</p>
+</div>
+<div><strong>D) Edita README.md explicant el que has fet</strong></div>
+<div>Per demostrar que coneixeu els fonaments bàsics de Markdown cal incloure:</div>
+</div>
+</div>
+<div id="gt-res-c">
+<div id="gt-res-p">
+<div id="gt-res-data">
+<div id="gt-res-wrap">
+<div id="gt-res-content">
+<div dir="ltr">
+<ul>
+<li id="result_box" lang="ca"><span id="result_box" lang="ca">Títols</span></li>
+<li lang="ca"><span id="result_box" lang="ca"></span><span id="result_box" lang="ca">Llistes</span></li>
+<li lang="ca"><span id="result_box" lang="ca">Enllaços (al menys l'enllaç a rawgit)</span></li>
+<li lang="ca"><span lang="ca">Cursiva i negreta</span></li>
+</ul>
+<p><strong><span lang="ca">E) Quan ho hagis completat, envia <span style="color: #ff0000;">l'enllaç del teu repositori</span> (fes l'entrega)</span></strong></p>
+<p></p>
+<p><strong><span lang="ca">Autoavaluació:</span></strong></p>
+<ul>
+<li>Saps crear repositoris de Gihub i pujar fitxers?</li>
+<li>Has creat documents d'exemple amb diferents llenguatges de marques?</li>
+<li>Saps editar README.md usant Markdown?</li>
+</ul>
+<p>Si a tot respons Sí, podem començar el curs.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div><div class="submissionstatustable"><h3 class="main">Estat de la tramesa</h3><div class="box boxaligncenter submissionsummarytable"><table class="generaltable">
+<tbody><tr class="r0">
+<td class="cell c0" style="">Estat de la tramesa</td>
+<td class="cell c1 lastcol" style="">Cap intent</td>
+</tr>
+<tr class="r1">
+<td class="cell c0" style="">Estat de la qualificació</td>
+<td class="submissionnotgraded cell c1 lastcol" style="">Sense qualificació</td>
+</tr>
+<tr class="r0">
+<td class="cell c0" style="">Data de venciment</td>
+<td class="cell c1 lastcol" style="">divendres, 9 novembre 2018, 23:55</td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style="">Temps restant</td>
+<td class="cell c1 lastcol" style="">1 dia 12 hores</td>
+</tr>
+</tbody>
+</table>
+</div><div class="box generalbox submissionaction"><div class="singlebutton"><form method="get" action="http://fpadistancia.caib.es/mod/assign/view.php"><div><input type="submit" value="Afegeix tramesa" /><input type="hidden" name="id" value="62388" /><input type="hidden" name="action" value="editsubmission" /></div></form></div><div class="box boxaligncenter submithelp">Feu canvis a la vostra tramesa</div></div></div></div>                                                    </div>
+                    </div>
+                </div>
+
+                                <div id="region-pre" class="block-region">
+                    <div class="region-content">
+                        <a href="#sb-1" class="skip-block">Omet Navegació</a><div id="inst4" class="block_navigation  block" role="navigation" aria-labelledby="instance-4-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-4-header">Navegació</h2></div></div><div class="content"><ul class="block_tree list"><li class="type_unknown depth_1 contains_branch" aria-expanded="true"><p class="tree_item branch canexpand navigation_node"><a href="http://fpadistancia.caib.es/">Inici</a></p><ul><li class="type_setting depth_2 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/my/"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />La meva pàgina inicial</a></p></li>
+<li class="type_course depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span title="Plataforma Virtual d&#039;Ensenyament de les Illes Balears" tabindex="0">Pàgines del lloc</span></p><ul><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/blog/index.php?courseid=0"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Blogs del lloc</a></p></li>
+<li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/badges/view.php?type=1"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Insígnies del lloc</a></p></li>
+<li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/tag/search.php"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Etiquetes</a></p></li>
+<li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/calendar/view.php?view=month"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Calendari</a></p></li>
+<li class="type_activity depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a title="Fòrum" href="http://fpadistancia.caib.es/mod/forum/view.php?id=33899"><img alt="Fòrum" class="smallicon navicon" title="Fòrum" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/forum/1515762881/icon" />Notícies del lloc</a></p></li></ul></li>
+<li class="type_user depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">El meu perfil</span></p><ul><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/user/profile.php?id=261068"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Mostra el perfil</a></p></li>
+<li class="type_custom depth_3 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Missatges al fòrum</span></p><ul><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/mod/forum/user.php?id=261068"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Missatges</a></p></li>
+<li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/mod/forum/user.php?id=261068&amp;mode=discussions"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Debats</a></p></li></ul></li>
+<li class="type_unknown depth_3 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Blogs</span></p><ul><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/blog/index.php?userid=261068"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />View all of my entries</a></p></li>
+<li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/blog/edit.php?action=add"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Add a new entry</a></p></li></ul></li>
+<li class="type_setting depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/message/index.php"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Missatges</a></p></li>
+<li class="type_setting depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/badges/mybadges.php"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Les meves insígnies</a></p></li></ul></li>
+<li class="type_system depth_2 contains_branch" aria-expanded="true"><p class="tree_item branch"><span tabindex="0">Curs actual</span></p><ul><li class="type_course depth_3 contains_branch" aria-expanded="true"><p class="tree_item branch canexpand"><a title="Lenguaje de Marcas y Sistemas de Gestión de la Información (ASIR_LMSGI)" href="http://fpadistancia.caib.es/course/view.php?id=286">07006238_IFC31_Z_0373</a></p><ul><li class="type_unknown depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><a href="http://fpadistancia.caib.es/user/index.php?id=286">Participants</a></p><ul><li class="type_custom depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/blog/index.php?courseid=286"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Blogs del curs</a></p></li>
+<li class="type_user depth_5 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><a href="http://fpadistancia.caib.es/user/view.php?id=261068&amp;course=286">Alex Fernando Perez Gonzalez</a></p><ul><li class="type_custom depth_6 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/user/view.php?id=261068&amp;course=286"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Mostra el perfil</a></p></li>
+<li class="type_custom depth_6 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Missatges al fòrum</span></p><ul><li class="type_custom depth_7 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/mod/forum/user.php?id=261068&amp;course=286"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Missatges</a></p></li>
+<li class="type_custom depth_7 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/mod/forum/user.php?id=261068&amp;course=286&amp;mode=discussions"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Debats</a></p></li></ul></li>
+<li class="type_unknown depth_6 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Blogs</span></p><ul><li class="type_custom depth_7 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/blog/index.php?userid=261068"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />View all of my entries</a></p></li>
+<li class="type_custom depth_7 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/blog/edit.php?action=add"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Add a new entry</a></p></li></ul></li>
+<li class="type_setting depth_6 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/message/index.php"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Missatges</a></p></li>
+<li class="type_setting depth_6 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/badges/mybadges.php"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Les meves insígnies</a></p></li></ul></li></ul></li>
+<li class="type_unknown depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Insígnies</span></p><ul><li class="type_setting depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a href="http://fpadistancia.caib.es/badges/view.php?type=2&amp;id=286"><img alt="Insígnies del curs" class="smallicon navicon" title="Insígnies del curs" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/badge" />Insígnies del curs</a></p></li></ul></li>
+<li class="type_structure depth_4 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_30_3550"><span tabindex="0">General</span></p></li>
+<li class="type_structure depth_4 contains_branch" aria-expanded="true"><p class="tree_item branch"><span tabindex="0">Tema 1</span></p><ul><li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="Pàgina" href="http://fpadistancia.caib.es/mod/page/view.php?id=70942"><img alt="Pàgina" class="smallicon navicon" title="Pàgina" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/page/1515762881/icon" />1.0 Introducció</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="Pàgina" href="http://fpadistancia.caib.es/mod/page/view.php?id=70943"><img alt="Pàgina" class="smallicon navicon" title="Pàgina" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/page/1515762881/icon" />1.1 Què són els llenguatges de marques</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="Pàgina" href="http://fpadistancia.caib.es/mod/page/view.php?id=70944"><img alt="Pàgina" class="smallicon navicon" title="Pàgina" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/page/1515762881/icon" />1.1.1 Exemples de llenguatges de marques</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="Pàgina" href="http://fpadistancia.caib.es/mod/page/view.php?id=70945"><img alt="Pàgina" class="smallicon navicon" title="Pàgina" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/page/1515762881/icon" />1.2 Com funciona la web</a></p></li>
+<li class="type_activity depth_5 item_with_icon"><p class="tree_item leaf hasicon"><a title="Fòrum" href="http://fpadistancia.caib.es/mod/forum/view.php?id=26529"><img alt="Fòrum" class="smallicon navicon" title="Fòrum" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/forum/1515762881/icon" />Fòrum per a LMSGI-01</a></p></li>
+<li class="type_activity depth_5 item_with_icon current_branch"><p class="tree_item leaf hasicon active_tree_node"><a title="Tasca" href="http://fpadistancia.caib.es/mod/assign/view.php?id=62388"><img alt="Tasca" class="smallicon navicon" title="Tasca" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/assign/1515762881/icon" />Introducció als Llenguatges de Marques LLSGI-01</a></p></li></ul></li></ul></li></ul></li>
+<li class="type_system depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch" id="expandable_branch_0_mycourses"><a href="http://fpadistancia.caib.es/my/">Els meus cursos</a></p></li></ul></li></ul></div></div><span id="sb-1" class="skip-block-to"></span><a href="#sb-2" class="skip-block">Omet Configuració</a><div id="inst5" class="block_settings  block" role="navigation" aria-labelledby="instance-5-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-5-header">Configuració</h2></div></div><div class="content"><div id="settingsnav" class="box block_tree_box"><ul class="block_tree list"><li class="type_course collapsed contains_branch" aria-expanded="false"><p class="tree_item branch root_node"><span tabindex="0">Administració del curs</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://fpadistancia.caib.es/grade/report/index.php?id=286"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/grades" />Qualificacions</a></p></li></ul></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><hr /><p class="tree_item branch root_node" id="usersettings"><span tabindex="0">Configuració del meu perfil</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://fpadistancia.caib.es/user/edit.php?id=261068&amp;course=286"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Edita el perfil</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://fpadistancia.caib.es/message/edit.php?id=261068"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Missatgeria</a></p></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Blogs</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://fpadistancia.caib.es/blog/preferences.php"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Preferències</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://fpadistancia.caib.es/blog/external_blogs.php"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Blogs externs</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://fpadistancia.caib.es/blog/external_blog_edit.php"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Registra un blog extern</a></p></li></ul></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Insígnies</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://fpadistancia.caib.es/badges/preferences.php"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Preferències</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://fpadistancia.caib.es/badges/mybackpack.php"><img alt="" class="smallicon navicon" title="" src="http://fpadistancia.caib.es/theme/image.php/ieduca_fprofessional/core/1515762881/i/navigationitem" />Configuració de la motxilla</a></p></li></ul></li></ul></li></ul></div></div></div><span id="sb-2" class="skip-block-to"></span>                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="myclear"></div>
+    
+    <div id="page-footer" class="clearfix">
+      <p class="helplink"></p>
+      <div class="logininfo">Heu entrat com <a href="http://fpadistancia.caib.es/user/profile.php?id=261068" title="Mostra el perfil">Alex Fernando Perez Gonzalez</a> (<a href="http://fpadistancia.caib.es/login/logout.php?sesskey=myEI9abDl6">Sortida</a>)</div>    </div>
+
+   <div class="myclear"></div>
+  </div> <!-- END #page -->
+
+</div> <!-- END #page-wrapper -->
+
+<!--
+<div id="page-footer-bottom">
+
+<div class="homelink"><a href="http://fpadistancia.caib.es/course/view.php?id=286">07006238_IFC31_Z_0373</a></div>
+</div>-->
+
+<div id="page-footer-bottom">
+<!--
+	<div class="sitelink">
+		<a id="ie_logo_ieduca" title="ieduca.caib.es" target="_blank" href="http://ieduca.caib.es/">
+<p></p>
+		</a>
+	</div>
+-->
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Darrera modificaci\u00f3","name":"Nom","error":"Error","info":"Informaci\u00f3","viewallcourses":"Mostra tots els cursos","morehelp":"M\u00e9s ajuda","loadinghelp":"S'est\u00e0 carregant...","cancel":"Cancel\u00b7la","yes":"S\u00ed"},"repository":{"type":"Tipus","size":"Mida","invalidjson":"Cadena JSON inv\u00e0lida","nofilesattached":"No s'ha adjuntat cap fitxer","filepicker":"Selector de fitxers","logout":"Tanca la sessi\u00f3","nofilesavailable":"Cap fitxer disponible","norepositoriesavailable":"Perdoneu, cap dels vostres repositoris actuals retorna fitxers del format requerit.","fileexistsdialogheader":"El fitxer existeix","fileexistsdialog_editor":"Ja s'ha adjuntat un fitxer amb aquest nom al text que esteu editant","fileexistsdialog_filemanager":"Ja s'ha adjuntat un fitxer amb aquest nom","renameto":"Canvia el nom a \"{$a}\"","referencesexist":"Hi ha {$a} \u00e0lies o accessos directes de fitxer que utilitzen aquest fitxer com a font","select":"Selecciona"},"block":{"addtodock":"Minimitza a la barra lateral","undockitem":"Restaura aquest bloc a columna de blocs","dockblock":"Acobla el bloc {$a}","undockblock":"Desacobla el bloc {$a}","undockall":"Restaura tots els blocs a la seva columna","hidedockpanel":"Amaga el tauler d'acoblament","hidepanel":"Amaga el tauler"},"langconfig":{"thisdirectionvertical":"btt"},"admin":{"confirmation":"Confirmaci\u00f3"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var navtreeexpansions4 = [{"id":"expandable_branch_30_3550","key":"3550","type":30},{"id":"expandable_branch_0_mycourses","key":"mycourses","type":0}];
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+M.yui.galleryversion="2010.04.08-12-35";Y.use("core_dock","moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"4","instance":"4","candock":false,"courselimit":"20","expansionlimit":0});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("core_dock","moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"5","instance":"5","candock":false});
+});
+M.util.help_popups.setup(Y);
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_block_hider(Y, {"id":"inst4","title":"Navegaci\u00f3","preference":"block4hidden","tooltipVisible":"Oculta bloc Navegaci\u00f3","tooltipHidden":"Mostra bloc Navegaci\u00f3"});
+M.util.init_block_hider(Y, {"id":"inst5","title":"Configuraci\u00f3","preference":"block5hidden","tooltipVisible":"Oculta bloc Configuraci\u00f3","tooltipHidden":"Mostra bloc Configuraci\u00f3"});
+
+});
+//]]>
+</script>
+</body>
+</html>
